@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 900" width="480" height="900" fill="none" stroke-linecap="round">
+  <defs>
+    <linearGradient id="v" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a67c2e"/><stop offset=".35" stop-color="#ecd08a"/>
+      <stop offset=".6" stop-color="#9c7426"/><stop offset="1" stop-color="#e3c27a"/>
+    </linearGradient>
+  </defs>
+  <!-- faint grey stone hairlines -->
+  <g stroke="#8d8a8c" stroke-opacity=".13" stroke-width=".7">
+    <path d="M40,0 C70,120 25,210 80,330 S110,520 60,640 S90,820 45,900"/>
+    <path d="M440,0 C420,90 465,170 440,260 S400,420 450,500"/>
+    <path d="M430,520 C400,600 450,690 410,780 S420,860 450,900"/>
+    <path d="M15,560 C45,590 40,640 80,680"/>
+  </g>
+  <g stroke="#8d8a8c" stroke-opacity=".08" stroke-width="2.5">
+    <path d="M90,60 C110,140 85,220 120,300"/>
+    <path d="M400,620 C380,700 410,760 390,860"/>
+  </g>
+  <!-- gold veins, upper left edge -->
+  <g stroke="url(#v)" stroke-opacity=".6">
+    <path d="M0,40 C30,70 55,60 70,110 C85,150 75,190 100,230 C120,262 105,300 120,340 C130,370 110,400 95,430" stroke-width="2.2"/>
+    <path d="M70,110 C90,100 105,85 130,88" stroke-width="1.1"/>
+    <path d="M100,230 C80,250 60,250 40,280" stroke-width="1"/>
+    <path d="M40,280 C30,300 15,300 0,320" stroke-width=".7"/>
+  </g>
+  <!-- gold veins, right edge -->
+  <g stroke="url(#v)" stroke-opacity=".6">
+    <path d="M480,330 C455,360 430,350 415,400 C400,450 412,490 385,540 C362,585 375,630 360,680 C350,715 365,745 350,790" stroke-width="2.2"/>
+    <path d="M415,400 C440,415 458,440 480,445" stroke-width="1"/>
+    <path d="M385,540 C365,532 350,545 335,535" stroke-width="1"/>
+    <path d="M350,790 C360,830 345,860 360,900" stroke-width=".8"/>
+  </g>
+  <!-- thin hair-veins near the edges -->
+  <g stroke="#c9a14a" stroke-opacity=".35" stroke-width=".6">
+    <path d="M0,700 C30,690 50,710 80,700 C100,694 110,712 125,720"/>
+    <path d="M420,120 C435,150 428,180 450,200 C465,215 472,240 480,250"/>
+    <path d="M0,860 C30,840 55,850 75,830"/>
+  </g>
+</svg>
